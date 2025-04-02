@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Navbar & Hero Section</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-lg">
+      <a class="navbar-brand fw-bold" href="#" id="logo">KAIRA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <!-- Home Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              HOME
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+              <li><a class="dropdown-item" href="#">Home 1</a></li>
+              <li><a class="dropdown-item" href="#">Home 2</a></li>
+            </ul>
+          </li>
+
+          <!-- Shop Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="shopDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              SHOP
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+              <li><a class="dropdown-item" href="#">All Products</a></li>
+              <li><a class="dropdown-item" href="#">Categories</a></li>
+            </ul>
+          </li>
+
+          <!-- Blog Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              BLOG
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+              <li><a class="dropdown-item" href="#blog">Latest Posts</a></li>
+              <li><a class="dropdown-item" href="#">Popular Posts</a></li>
+            </ul>
+          </li>
+
+          <!-- Pages Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              PAGES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">FAQs</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">WISHLIST (0)</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+              </svg></a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+    <h1>New Collections</h1>
+    <p class="text-muted fs-5">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptas ut dolorem
+      consequuntur, adipisci repellat! Eveniet commodi voluptatem voluptate, eum minima,
+      in suscipit explicabo voluptatibus harum, quibusdam ex repellat eaque!
+    </p>
+  </div>
+
+  <!-- card section -->
+
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://themewagon.github.io/kaira/images/banner-image-6.jpg" class="card-img-top"
+            alt="Leather Jacket 1">
+          <div class="card-body">
+            <h5 class="card-title fs-2">SOFT LEATHER JACKETS</h5>
+            <p class="card-text">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p>
+            <a href="#" class="discover-btn">DISCOVER NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://themewagon.github.io/kaira/images/banner-image-1.jpg" class="card-img-top"
+            alt="Leather Jacket 2">
+          <div class="card-body">
+            <h5 class="card-title fs-2">SOFT LEATHER JACKETS</h5>
+            <p class="card-text">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p>
+            <a href="#" class="discover-btn">DISCOVER NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://themewagon.github.io/kaira/images/banner-image-3.jpg" class="card-img-top"
+            alt="Leather Jacket 3">
+          <div class="card-body">
+            <h5 class="card-title fs-2">SOFT LEATHER JACKETS</h5>
+            <p class="card-text">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p>
+            <a href="#" class="discover-btn">DISCOVER NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- service card -->
+  <div class="container-lg text-center service">
+    <div class="row">
+      <div class="col-md-3">
+        <i class="bi bi-calendar-event feature-icon"></i>
+        <h5 class="mt-3 fs-3">Book An Appointment</h5>
+        <p class="text-muted">At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+      </div>
+      <div class="col-md-3">
+        <i class="bi bi-bag feature-icon"></i>
+        <h5 class="mt-3 fs-3">Pick Up In Store</h5>
+        <p class="text-muted">At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+      </div>
+      <div class="col-md-3">
+        <i class="bi bi-gift feature-icon"></i>
+        <h5 class="mt-3 fs-3">Special Packaging</h5>
+        <p class="text-muted">At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+      </div>
+      <div class="col-md-3">
+        <i class="bi bi-arrow-repeat feature-icon"></i>
+        <h5 class="mt-3 fs-3">Free Global Returns</h5>
+        <p class="text-muted">At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- card 2 -->
+
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://themewagon.github.io/kaira/images/cat-item1.jpg" class="card-img-top"
+            alt="Leather Jacket 1">
+          <div class="card-body">
+            <p class="card-text text-uppercase">shop for men</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://themewagon.github.io/kaira/images/cat-item2.jpg" class="card-img-top" alt="cat">
+          <div class="card-body">
+            <p class="card-text text-uppercase">shop for woman</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://themewagon.github.io/kaira/images/cat-item3.jpg" class="card-img-top" alt="themewagon">
+          <div class="card-body">
+            <p class="card-text text-uppercase">shop for</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- NEW ARRIVALS section -->
+
+  <div class="container mt-5">
+    <h2 class="text-center">OUR NEW ARRIVALS</h2>
+    <div id="newArrivalsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-2.jpg" class="img-fluid"
+                alt="Dark Florish Onepiece">
+              <p>DARK FLORISH ONEPIECE</p>
+              <p>$95.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-3.jpg" class="img-fluid"
+                alt="Baggy Shirt">
+              <p>BAGGY SHIRT</p>
+              <p>$55.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-4.jpg" class="img-fluid"
+                alt="Cotton Off-White Shirt">
+              <p>COTTON OFF-WHITE SHIRT</p>
+              <p>$45.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-4.jpg" class="img-fluid"
+                alt="Crop Sweater">
+              <p>CROP SWEATER</p>
+              <p>$50.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-5.jpg" class="img-fluid"
+                alt="New Arrival 1">
+              <p>NEW ARRIVAL 1</p>
+              <p>$60.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-6.jpg" class="img-fluid"
+                alt="New Arrival 2">
+              <p>NEW ARRIVAL 2</p>
+              <p>$70.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-7.jpg" class="img-fluid"
+                alt="New Arrival 3">
+              <p>NEW ARRIVAL 3</p>
+              <p>$80.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-8.jpg" class="img-fluid"
+                alt="New Arrival 4">
+              <p>NEW ARRIVAL 4</p>
+              <p>$90.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" id="prev-btn" type="button" data-bs-target="#newArrivalsCarousel"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" id="next-btn" type="button" data-bs-target="#newArrivalsCarousel"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+
+    </div>
+    <div class="text-center mt-3">
+      <a href="#" class="btn btn-dark">VIEW ALL PRODUCTS</a>
+
+    </div>
+  </div>
+
+  <!-- about section -->
+
+  <div class="container-fluid collection-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="https://themewagon.github.io/kaira/images/single-image-2.jpg" class="img-fluid"
+            alt="Classic Winter Collection">
+        </div>
+        <div class="col-md-6 collection-text">
+          <h2 class="fs-1">CLASSIC WINTER <br>COLLECTION</h2>
+          <p class="fs-5">
+            Dignissim lacus, turpis ut suspendisse vel tellus. Turpis purus, gravida orci, fringilla a.
+            Ac sed eu fringilla odio mi. Consequat pharetra at magna imperdiet cursus ac faucibus sit libero.
+            Ultricies quam nunc, lorem sit lorem urna, pretium aliquam ut. In vel, quis donec dolor id in.
+            Pulvinar commodo mollis diam sed facilisis at cursus imperdiet cursus ac faucibus sit faucibus sit libero.
+          </p>
+          <a href="#" class="btn btn-dark">SHOP COLLECTION</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- NEW ARRIVALS section -->
+
+  <div class="container mt-5">
+    <h2 class="text-center">OUR NEW ARRIVALS</h2>
+    <div id="newArrivalsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-2.jpg" class="img-fluid"
+                alt="Dark Florish Onepiece">
+              <p>DARK FLORISH ONEPIECE</p>
+              <p>$95.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-3.jpg" class="img-fluid"
+                alt="Baggy Shirt">
+              <p>BAGGY SHIRT</p>
+              <p>$55.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-4.jpg" class="img-fluid"
+                alt="Cotton Off-White Shirt">
+              <p>COTTON OFF-WHITE SHIRT</p>
+              <p>$45.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-4.jpg" class="img-fluid"
+                alt="Crop Sweater">
+              <p>CROP SWEATER</p>
+              <p>$50.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-5.jpg" class="img-fluid"
+                alt="New Arrival 1">
+              <p>NEW ARRIVAL 1</p>
+              <p>$60.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-6.jpg" class="img-fluid"
+                alt="New Arrival 2">
+              <p>NEW ARRIVAL 2</p>
+              <p>$70.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-7.jpg" class="img-fluid"
+                alt="New Arrival 3">
+              <p>NEW ARRIVAL 3</p>
+              <p>$80.00</p>
+            </div>
+            <div class="col-md-3">
+              <img src="https://themewagon.github.io/kaira/images/product-item-8.jpg" class="img-fluid"
+                alt="New Arrival 4">
+              <p>NEW ARRIVAL 4</p>
+              <p>$90.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" id="prev-btn" type="button" data-bs-target="#newArrivalsCarousel"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" id="next-btn" type="button" data-bs-target="#newArrivalsCarousel"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+
+    </div>
+    <div class="text-center mt-3">
+      <a href="#" class="btn btn-dark">VIEW ALL PRODUCTS</a>
+
+    </div>
+  </div>
+
+
+  <!-- testimonial -->
+  <div class="container mt-5">
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="testimonial">
+            <h6 class="fs-1">WE LOVE GOOD COMPLIMENT</h6>
+            <p class="lead">“More than expected crazy soft, flexible and best fitted white simple denim shirt.”</p>
+            <small class="fw-bold">CASUAL WAY</small>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial">
+            <h6 class="fs-1">ANOTHER GREAT REVIEW</h6>
+            <p class="lead">“The fabric is extremely comfortable and feels amazing. Highly recommend it!”</p>
+            <small class="fw-bold">FASHION LOVER</small>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial">
+            <h6 class="fs-1">AMAZING QUALITY</h6>
+            <p class="lead">“Perfect fit, amazing quality, and super soft fabric. Will buy again!”</p>
+            <small class="fw-bold">STYLE ENTHUSIAST</small>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- blog section-->
+  <div class="container py-5" id="blog">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h1 class="h3 font-weight-bold">Read Blog Posts</h1>
+      <a href="#" class="font-weight-bold">View All</a>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card border-0">
+          <img src="https://storage.googleapis.com/a1aa/image/VKdFBYpoyvXtZ9DnPHCPyMAKEbBpn0gHnKXQha8vHps.jpg"
+            class="card-img-top" alt="Two women in pastel outfits sitting outdoors">
+          <div class="card-body">
+            <p class="card-text text-muted">Fashion / Jul 11, 2022</p>
+            <h5 class="card-title font-weight-bold">How to Look Outstanding in Pastel</h5>
+            <p class="card-text text-muted">Dignissim lacus, turpis ut suspendisse vel tellus. Turpis purus, gravida
+              orci, fringilla...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card border-0">
+          <img src="https://storage.googleapis.com/a1aa/image/sjH2tymmoR01AbIWUN1W2_LDAlCLjNvkHsJUcBL23m4.jpg"
+            class="card-img-top" alt="A man in a black shirt standing outdoors">
+          <div class="card-body">
+            <p class="card-text text-muted">Fashion / Jul 11, 2022</p>
+            <h5 class="card-title font-weight-bold">Top 10 Fashion Trend for Summer</h5>
+            <p class="card-text text-muted">Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse
+              vel tellus...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card border-0">
+          <img src="https://storage.googleapis.com/a1aa/image/hamFLR3AEkQrlFZwZhIWPV11rbX039e8JWDLcSEJlVw.jpg"
+            class="card-img-top" alt="A woman in a blue outfit posing in front of a cathedral">
+          <div class="card-body">
+            <p class="card-text text-muted">Fashion / Jul 11, 2022</p>
+            <h5 class="card-title font-weight-bold">Crazy Fashion with Unique Moment</h5>
+            <p class="card-text text-muted">Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse
+              vel tellus...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- newsletter-section -->
+  <div class="newsletter-section">
+    <div class="newsletter-box text-center">
+      <h2 class="mb-5 fs-1">SIGN UP FOR OUR NEWSLETTER</h2>
+      <form>
+        <div class="mb-3">
+          <input type="email" class="form-control fs-5 p-3" placeholder="Your Email Address" required>
+        </div>
+        <button type="submit" class="btn btn-dark w-100 fs-5 p-3">SIGN UP</button>
+      </form>
+    </div>
+  </div>
+  <!-- footer  -->
+
+
+  <footer class="footer text-center text-md-start bg-light py-4">
+    <div class="container">
+      <div class="row">
+        <!-- Brand Info -->
+        <div class="col-md-3 ">
+          <h5 class="fs-2 fw-bold">KAIRA</h5>
+          <p class="fs-5 my-3">Gravida massa volutpat aenean odio. Amet, turpis erat nullam fringilla elementum diam.
+          </p>
+          <div class="social-icons d-flex gap-3">
+            <a href="#" class="text-dark fs-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-dark fs-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-dark fs-3"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-dark fs-3"><i class="bi bi-pinterest"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-3">
+          <h5>QUICK LINKS</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark text-decoration-none">Home</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">About</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Services</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Single Item</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Help & Info -->
+        <div class="col-md-3">
+          <h5>HELP & INFO</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark text-decoration-none">Track Your Order</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Returns + Exchanges</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Shipping + Delivery</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Contact Us</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">Find Us Easy</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">FAQs</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Us -->
+        <div class="col-md-3">
+          <h5>CONTACT US</h5>
+          <p>Have any questions or suggestions?</p>
+          <p><strong><a href="mailto:contact@yourcompany.com" class="text-dark">contact@yourcompany.com</a></strong></p>
+          <p>Need support? Call us.</p>
+          <p><strong><a href="tel:+43720115278" class="text-dark">+43 720 11 52 78</a></strong></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="text-center py-3 border-top mt-4 bg-light">
+      <p>&copy; 2024 Kaira. All rights reserved. Design by <a href="#"
+          class="text-secondary text-decoration-none">TemplatesJungle</a>. Distribution by <a href="#"
+          class="text-decoration-none">ThemeWagon</a>.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
