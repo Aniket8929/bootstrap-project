@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgb(0, 193, 235);
+  --dark-blue: #1d3557;
+  --text-white: #fff;
+  --text-dark:#111;
+  --text-muted: rgb(170, 169, 169);
+}
+
+body{
+  overflow-x: hidden;
+}
