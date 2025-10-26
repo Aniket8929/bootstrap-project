@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f5f5f5;
+}
+/* navabar */
+.navbar {
+  background-color: var(--primary-color);
+}
+
+#logo {
+  font-size: 2.2rem;
+  font-weight: 9000;
+}
+.navbar-nav li {
+  font-size: 1.2rem;
+}
+/*  Hero Section */
+
+.hero {
+  text-align: center;
+  padding: 80px 0;
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+}
+.hero h1 {
+  font-size: 4rem;
+  line-height: 1.6;
+}
+/* card section */
+
+.card-body {
+  padding-inline: 0;
+}
+.discover-btn {
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+}
+
+/* service card */
+
+.feature-icon {
+  font-size: 3rem;
+  color: gray;
+}
+.service {
+  margin-block: 100px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  width: 50px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  border-radius: 50%; /* Make it round */
+}
+.carousel-control-prev {
+  left: -10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-next {
+  right: -10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Make the icons white */
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(255, 255, 255, 0.7); /* Light background on hover */
+}
+
+/* about section */
+.collection-section {
+  background-color: #f8f8f8;
+  padding: 70px 0;
+}
+.collection-text {
+  padding: 40px 60px;
+}
+
+/* testimonial */
+
+#testimonialCarousel {
+  padding: 100px 0;
+}
+.testimonial {
+  text-align: center;
+  padding: 40px;
+}
+.carousel-indicators button {
+  background-color: gray;
+}
+
+/* newsletter-section */
+.newsletter-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0;
+  background-image: url("https://themewagon.github.io/kaira/images/pattern-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.newsletter-box {
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  margin-right: 10px;
+  font-size: 20px;
+}
